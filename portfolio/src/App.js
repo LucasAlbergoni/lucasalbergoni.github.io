@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react-dom";
+import Header from "./components/Header";
+import Experience from "./pages/02-experience";
+import Skills from "./pages/03-skills";
+import Sobre from "./pages/01-sobre";
+import SiteArea from "./styled";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>Site do Lucas Albergoni</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<SiteArea>
+			<Header />
+			<Sobre />
+			<Experience />
+			<Skills />
+		</SiteArea>
+	);
 }
 
 export default App;
