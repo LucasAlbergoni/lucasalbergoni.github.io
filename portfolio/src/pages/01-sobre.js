@@ -13,7 +13,7 @@ function Sobre() {
 				Graduado desde 2018 em Sistemas para Internet e atualmente trabalhando principalmente com
 				ReactJS.
 				<br />
-				Possuo pós graduação em nivel de especialista em Banco de dados.
+				Possuo pós graduação em nível de especialista em Banco de dados.
 			</p>
 			<Button href={Curriculum} type='button'>
 				Baixar Curriculum

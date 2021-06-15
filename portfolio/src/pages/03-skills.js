@@ -104,7 +104,7 @@ function Skills() {
 						<div className='row'>
 							<div className='div90 skillbar'>
 								<FaGlobeAmericas />
-								Portugues
+								Português
 							</div>
 							<div className='div10 complement'></div>
 						</div>

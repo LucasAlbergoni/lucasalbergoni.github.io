@@ -115,7 +115,7 @@ function Experience() {
 										Cambridge Assessment English
 									</Card.Subtitle>
 									<Card.Text>
-										Teste de proficiencia em Lingua Inglesa, com certificacao de nivel B2.
+										Teste de proficiência em Língua Inglesa, com certificação de nivel B2.
 									</Card.Text>
 								</Card.Body>
 							</Card>
@@ -164,7 +164,7 @@ function Experience() {
 									<Card.Subtitle className='mb-2 text-muted'>
 										<Card.Title>Unicesumar</Card.Title>
 									</Card.Subtitle>
-									<Card.Text>Graduação em nivel tecnólogo em Sistemas Para Internet</Card.Text>
+									<Card.Text>Graduação em nível tecnólogo em Sistemas Para Internet</Card.Text>
 								</Card.Body>
 							</Card>
 						</Typography>
@@ -190,10 +190,10 @@ function Experience() {
 										Commanders Uniformes Profissionais
 									</Card.Subtitle>
 									<Card.Text>
-										Manutenção e atualização de Firewall, Manutenção em microcomputadores
-										Administração da rede interna Suporte as estações de trabalho remotamente.
-										Instalação e configuração de equipamentos. Rotina de backups. Conhecimento de
-										rotinas gerenciais
+										Manutenção e atualização de Firewall; Manutenção em microcomputadores;
+										Administração da rede interna; Suporte às estações de trabalho remotamente;
+										Instalação e configuração de equipamentos; Rotina de backups; Conhecimento de
+										rotinas gerenciais.
 									</Card.Text>
 								</Card.Body>
 							</Card>
