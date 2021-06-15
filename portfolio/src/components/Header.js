@@ -32,7 +32,7 @@ function Navhead() {
 			<Navbar.Collapse id='basic-navbar-nav'>
 				<Nav className='mr-auto'>
 					<Nav.Link href='#sobre' className='click'>
-						Sobre Mim
+						Sobre
 					</Nav.Link>
 					<Nav.Link href='#experience' className='click'>
 						Experiência
