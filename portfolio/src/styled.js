@@ -21,6 +21,9 @@ const SiteArea = styled.div`
 		height: 2em;
 		width: 2em;
 	}
+	.btn-primary {
+		background-color: #265066;
+	}
 	.part {
 		min-height: 60vh;
 		height: auto;
@@ -28,9 +31,23 @@ const SiteArea = styled.div`
 	}
 	#sobre {
 		background-color: #51a4c9;
+		@media only screen and (min-width: 800px) {
+			h1 {
+				font-size: 4rem;
+			}
+			h2 {
+				font-size: 3rem;
+			}
+			p {
+				font-size: 1.8rem;
+			}
+		}
 	}
 	#experience {
 		background-color: #293542;
+		svg {
+			color: #293542;
+		}
 		h2 {
 			color: #fff;
 			text-align: center;

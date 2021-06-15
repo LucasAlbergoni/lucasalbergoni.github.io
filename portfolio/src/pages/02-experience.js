@@ -15,6 +15,7 @@ import {
 	RiComputerFill,
 	RiCustomerService2Fill,
 	RiServerFill,
+	RiShieldCrossLine,
 } from "react-icons/all";
 
 function Experience() {
@@ -22,7 +23,30 @@ function Experience() {
 		<Container fluid className='part' id='experience'>
 			<Timeline align='alternate'>
 				<h2>Experiência e Formação</h2>
-
+				<TimelineItem>
+					<TimelineOppositeContent>
+						<Typography color='textSecondary'>06/2021 - Atualmente</Typography>
+					</TimelineOppositeContent>
+					<TimelineSeparator>
+						<TimelineDot>
+							<RiComputerFill />
+						</TimelineDot>
+						<TimelineConnector />
+					</TimelineSeparator>
+					<TimelineContent>
+						<Typography>
+							<Card>
+								<Card.Body>
+									<Card.Title>Treinee em Flutter</Card.Title>
+									<Card.Subtitle className='mb-2 text-muted'>
+										F-Team | Especialista em Aplicativos
+									</Card.Subtitle>
+									<Card.Text>Treinee</Card.Text>
+								</Card.Body>
+							</Card>
+						</Typography>
+					</TimelineContent>
+				</TimelineItem>
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<Typography color='textSecondary'>02/2021 - Atualmente</Typography>
@@ -65,6 +89,33 @@ function Experience() {
 									<Card.Text>
 										Supervisão de equipe de suporte, atendimento a clientes, atualização e
 										acompanhamento de software ERP.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Typography>
+					</TimelineContent>
+				</TimelineItem>
+
+				<TimelineItem>
+					<TimelineOppositeContent>
+						<Typography color='textSecondary'>06/2019</Typography>
+					</TimelineOppositeContent>
+					<TimelineSeparator>
+						<TimelineDot>
+							<RiShieldCrossLine />
+						</TimelineDot>
+						<TimelineConnector />
+					</TimelineSeparator>
+					<TimelineContent>
+						<Typography>
+							<Card>
+								<Card.Body>
+									<Card.Title>B2 First - Score 168</Card.Title>
+									<Card.Subtitle className='mb-2 text-muted'>
+										Cambridge Assessment English
+									</Card.Subtitle>
+									<Card.Text>
+										Teste de proficiencia em Lingua Inglesa, com certificacao de nivel B2.
 									</Card.Text>
 								</Card.Body>
 							</Card>
