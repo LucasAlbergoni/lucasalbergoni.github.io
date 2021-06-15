@@ -38,7 +38,7 @@ function Navhead() {
 						Experiência
 					</Nav.Link>
 					<Nav.Link href='#skills' className='click'>
-						Skills
+						Habilidades
 					</Nav.Link>
 				</Nav>
 				<a

@@ -10,18 +10,22 @@ import {
 	TimelineDot,
 	TimelineOppositeContent,
 } from "@material-ui/lab";
+import { FaGraduationCap, RiComputerFill, RiCustomerService2Fill } from "react-icons/all";
 
 function Experience() {
 	return (
 		<Container fluid className='part' id='experience'>
 			<Timeline align='alternate'>
-				<h2>Experiência Profissional</h2>
+				<h2>Experiência e Formação</h2>
+
 				<TimelineItem>
 					<TimelineOppositeContent>
 						<Typography color='textSecondary'>02/2021 - Atualmente</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot />
+						<TimelineDot>
+							<RiComputerFill />
+						</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
@@ -42,7 +46,9 @@ function Experience() {
 						<Typography color='textSecondary'>03/2019 - 02/2021</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot />
+						<TimelineDot>
+							<RiCustomerService2Fill />
+						</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
@@ -63,41 +69,12 @@ function Experience() {
 
 				<TimelineItem>
 					<TimelineOppositeContent>
-						<Typography color='textSecondary'>03/2016 - 03/2019</Typography>
-					</TimelineOppositeContent>
-					<TimelineSeparator>
-						<TimelineDot />
-						<TimelineConnector />
-					</TimelineSeparator>
-					<TimelineContent>
-						<Typography>
-							<Card>
-								<Card.Body>
-									<Card.Title>Tecnico de T.i</Card.Title>
-									<Card.Subtitle className='mb-2 text-muted'>
-										Commanders Uniformes Profissionais
-									</Card.Subtitle>
-									<Card.Text>
-										Manutenção e atualização de Firewall, Manutenção em microcomputadores
-										Administração da rede interna Suporte as estações de trabalho remotamente.
-										Instalação e configuração de equipamentos. Rotina de backups. Conhecimento de
-										rotinas gerenciais
-									</Card.Text>
-								</Card.Body>
-							</Card>
-						</Typography>
-					</TimelineContent>
-				</TimelineItem>
-			</Timeline>
-
-			<Timeline align='alternate'>
-				<h2>Formação</h2>
-				<TimelineItem>
-					<TimelineOppositeContent>
 						<Typography color='textSecondary'>2019 - 2020</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot />
+						<TimelineDot>
+							<FaGraduationCap />
+						</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
@@ -115,10 +92,12 @@ function Experience() {
 
 				<TimelineItem>
 					<TimelineOppositeContent>
-						<Typography color='textSecondary'>2026-2018</Typography>
+						<Typography color='textSecondary'>2016-2018</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot />
+						<TimelineDot>
+							<FaGraduationCap />
+						</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>
@@ -148,8 +127,10 @@ function Experience() {
 						<Typography>
 							<Card>
 								<Card.Body>
-									<Card.Title>Commanders Uniformes Profissionais</Card.Title>
-									<Card.Subtitle className='mb-2 text-muted'>KM Sistemas de Gestão</Card.Subtitle>
+									<Card.Title>Tecnico de T.i</Card.Title>
+									<Card.Subtitle className='mb-2 text-muted'>
+										Commanders Uniformes Profissionais
+									</Card.Subtitle>
 									<Card.Text>
 										Manutenção e atualização de Firewall, Manutenção em microcomputadores
 										Administração da rede interna Suporte as estações de trabalho remotamente.

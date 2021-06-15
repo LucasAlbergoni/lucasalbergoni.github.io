@@ -17,8 +17,13 @@ const SiteArea = styled.div`
 			color: #fff !important;
 		}
 	}
+	.MuiTimelineDot-root svg {
+		height: 2em;
+		width: 2em;
+	}
 	.part {
-		min-height: 100vh;
+		min-height: 60vh;
+		height: auto;
 		padding: 120px 5vw;
 	}
 	#sobre {
@@ -32,13 +37,49 @@ const SiteArea = styled.div`
 			margin: 2vh;
 		}
 	}
+	.skillbar {
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		line-height: 16px;
+		padding: 10px;
+		margin: 5px;
+		background-color: #293542;
+		color: #fff;
+		svg {
+			margin-right: 5px;
+		}
+	}
 
-	#skilss {
+	.div30 {
+		width: 30%;
+	}
+	.div50 {
+		width: 50%;
+	}
+	.div60 {
+		width: 60%;
+	}
+	.div70 {
+		width: 70%;
+	}
+	.div80 {
+		width: 80%;
+	}
+	.div90 {
+		width: 90%;
+	}
+
+	#skills {
 		background-color: #fff;
+		min-height: 50vh;
+		height: auto;
+		h2 {
+			text-align: center;
+			margin-bottom: 3vh;
+		}
 	}
-	#certificados {
-		background-color: #0c85c7;
-	}
+
 	.social {
 		color: #fff;
 		margin: 5px;
