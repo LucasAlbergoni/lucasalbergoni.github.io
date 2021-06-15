@@ -22,62 +22,98 @@ function Skills() {
 				<Card>
 					<Card.Body>
 						<Card.Title>Web e Desenvolvimento</Card.Title>
-						<div className='div60 skillbar'>
-							<SiReact />
-							Reactjs
+						<div className='row'>
+							<div className='div60 skillbar'>
+								<SiReact />
+								Reactjs
+							</div>
+							<div className='div40 complement'></div>
 						</div>
-						<div className='div30 skillbar'>
-							<SiFlutter />
-							Flutter
+						<div className='row'>
+							<div className='div30 skillbar'>
+								<SiFlutter />
+								Flutter
+							</div>
+							<div className='div70 complement'></div>
 						</div>
-						<div className='div90 skillbar'>
-							<SiHtml5 />
-							HTML5 + CSS
+						<div className='row'>
+							<div className='div90 skillbar'>
+								<SiHtml5 />
+								HTML5 + CSS
+							</div>
+							<div className='div10 complement'></div>
 						</div>
-						<div className='div80 skillbar'>
-							<SiJavascript />
-							Javascript
+						<div className='row'>
+							<div className='div80 skillbar'>
+								<SiJavascript />
+								Javascript
+							</div>
+							<div className='div20 complement'></div>
 						</div>
 					</Card.Body>
 				</Card>
 				<Card>
 					<Card.Body>
 						<Card.Title>Ferramentas e Habilidades</Card.Title>
-						<div className='div80 skillbar'>
-							<SiBootstrap /> Bootstrap
+						<div className='row'>
+							<div className='div80 skillbar'>
+								<SiBootstrap /> Bootstrap
+							</div>
+							<div className='div20 complement'></div>
 						</div>
-						<div className='div50 skillbar'>
-							<SiGit />
-							Git & Github
+						<div className='row'>
+							<div className='div70 skillbar'>
+								<SiGit />
+								Git & Github
+							</div>
+							<div className='div30 complement'></div>
 						</div>
-						<div className='div50 skillbar'>
-							<SiFirebase />
-							Firebase
+						<div className='row'>
+							<div className='div50 skillbar'>
+								<SiFirebase />
+								Firebase
+							</div>
+							<div className='div50 complement'></div>
 						</div>
-						<div className='div90 skillbar'>
-							<RiCustomerService2Fill />
-							Customer Service
+						<div className='row'>
+							<div className='div90 skillbar'>
+								<RiCustomerService2Fill />
+								Customer Service
+							</div>
+							<div className='div10 complement'></div>
 						</div>
-						<div className='div70 skillbar'>
-							<FaChalkboardTeacher />
-							Treinamento
+						<div className='row'>
+							<div className='div70 skillbar'>
+								<FaChalkboardTeacher />
+								Treinamento
+							</div>
+							<div className='div30 complement'></div>
 						</div>
 					</Card.Body>
 				</Card>
 				<Card>
 					<Card.Body>
 						<Card.Title>Idiomas</Card.Title>
-						<div className='div90 skillbar'>
-							<FaGlobeAmericas />
-							Inglês
+						<div className='row'>
+							<div className='div90 skillbar'>
+								<FaGlobeAmericas />
+								Inglês
+							</div>
+							<div className='div10 complement'></div>
 						</div>
-						<div className='div90 skillbar'>
-							<FaGlobeAmericas />
-							Portugues
+						<div className='row'>
+							<div className='div90 skillbar'>
+								<FaGlobeAmericas />
+								Portugues
+							</div>
+							<div className='div10 complement'></div>
 						</div>
-						<div className='div30 skillbar'>
-							<FaGlobeEurope />
-							Espanhol
+						<div className='row'>
+							<div className='div30 skillbar'>
+								<FaGlobeEurope />
+								Espanhol
+							</div>
+							<div className='div70 complement'></div>
 						</div>
 					</Card.Body>
 				</Card>

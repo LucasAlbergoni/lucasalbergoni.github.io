@@ -10,7 +10,12 @@ import {
 	TimelineDot,
 	TimelineOppositeContent,
 } from "@material-ui/lab";
-import { FaGraduationCap, RiComputerFill, RiCustomerService2Fill } from "react-icons/all";
+import {
+	FaGraduationCap,
+	RiComputerFill,
+	RiCustomerService2Fill,
+	RiServerFill,
+} from "react-icons/all";
 
 function Experience() {
 	return (
@@ -120,7 +125,9 @@ function Experience() {
 						<Typography color='textSecondary'>03/2016 - 03/2019</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
-						<TimelineDot />
+						<TimelineDot>
+							<RiServerFill />
+						</TimelineDot>
 						<TimelineConnector />
 					</TimelineSeparator>
 					<TimelineContent>

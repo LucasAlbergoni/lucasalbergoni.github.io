@@ -37,37 +37,53 @@ const SiteArea = styled.div`
 			margin: 2vh;
 		}
 	}
-	.skillbar {
+	.row {
 		display: flex;
 		flex-flow: row nowrap;
-		align-items: center;
-		line-height: 16px;
-		padding: 10px;
-		margin: 5px;
-		background-color: #293542;
-		color: #fff;
-		svg {
-			margin-right: 5px;
-		}
-	}
+		align-items: stretch;
 
-	.div30 {
-		width: 30%;
-	}
-	.div50 {
-		width: 50%;
-	}
-	.div60 {
-		width: 60%;
-	}
-	.div70 {
-		width: 70%;
-	}
-	.div80 {
-		width: 80%;
-	}
-	.div90 {
-		width: 90%;
+		margin: 5px;
+
+		.skillbar {
+			line-height: 16px;
+			padding: 10px;
+			background-color: #293542;
+			color: #fff;
+			svg {
+				margin-right: 5px;
+			}
+		}
+		.complement {
+			background-color: #afcded;
+			margin-left: 5px;
+		}
+		.div10 {
+			width: 10%;
+		}
+		.div20 {
+			width: 20%;
+		}
+		.div30 {
+			width: 30%;
+		}
+		.div40 {
+			width: 40%;
+		}
+		.div50 {
+			width: 50%;
+		}
+		.div60 {
+			width: 60%;
+		}
+		.div70 {
+			width: 70%;
+		}
+		.div80 {
+			width: 80%;
+		}
+		.div90 {
+			width: 90%;
+		}
 	}
 
 	#skills {
