@@ -37,11 +37,11 @@ function Experience() {
 						<Typography>
 							<Card>
 								<Card.Body>
-									<Card.Title>Treinee em Flutter</Card.Title>
+									<Card.Title>Desenvolvedor Junior em Flutter</Card.Title>
 									<Card.Subtitle className='mb-2 text-muted'>
 										F-Team | Especialista em Aplicativos
 									</Card.Subtitle>
-									<Card.Text>Treinee</Card.Text>
+									<Card.Text>06/2021 - 07/2021 Treinee </Card.Text>
 								</Card.Body>
 							</Card>
 						</Typography>
@@ -49,7 +49,7 @@ function Experience() {
 				</TimelineItem>
 				<TimelineItem>
 					<TimelineOppositeContent>
-						<Typography color='textSecondary'>02/2021 - Atualmente</Typography>
+						<Typography color='textSecondary'>02/2021 - 06/2021</Typography>
 					</TimelineOppositeContent>
 					<TimelineSeparator>
 						<TimelineDot>

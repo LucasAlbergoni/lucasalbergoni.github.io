@@ -11,7 +11,7 @@ function Sobre() {
 				Sou Desenvolvedor Web Front-End.
 				<br />
 				Formado em Sistemas para Internet e Especialista em Banco de dados. Atualmente trabalho
-				principalmente com ReactJS .
+				principalmente com Flutter|Dart .
 			</p>
 			<Button href={Curriculum} type='button'>
 				Baixar Curriculum
