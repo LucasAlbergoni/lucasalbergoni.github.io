@@ -37,7 +37,7 @@ function Experience() {
 						<Typography>
 							<Card>
 								<Card.Body>
-									<Card.Title>Desenvolvedor Junior em Flutter</Card.Title>
+									<Card.Title>Desenvolvedor Júnior em Flutter</Card.Title>
 									<Card.Subtitle className='mb-2 text-muted'>
 										F-Team | Especialista em Aplicativos
 									</Card.Subtitle>

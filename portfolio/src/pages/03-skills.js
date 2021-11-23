@@ -24,18 +24,19 @@ function Skills() {
 						<Card.Title>Web e Desenvolvimento</Card.Title>
 						<div className='row'>
 							<div className='div60 skillbar'>
+								<SiFlutter />
+								Flutter
+							</div>
+							<div className='div40 complement'></div>
+						</div>
+						<div className='row'>
+							<div className='div60 skillbar'>
 								<SiReact />
 								Reactjs
 							</div>
 							<div className='div40 complement'></div>
 						</div>
-						<div className='row'>
-							<div className='div30 skillbar'>
-								<SiFlutter />
-								Flutter
-							</div>
-							<div className='div70 complement'></div>
-						</div>
+
 						<div className='row'>
 							<div className='div90 skillbar'>
 								<SiHtml5 />
@@ -62,18 +63,18 @@ function Skills() {
 							<div className='div20 complement'></div>
 						</div>
 						<div className='row'>
-							<div className='div70 skillbar'>
+							<div className='div50 skillbar'>
 								<SiGit />
 								Git & Github
 							</div>
-							<div className='div30 complement'></div>
+							<div className='div50 complement'></div>
 						</div>
 						<div className='row'>
-							<div className='div50 skillbar'>
+							<div className='div60 skillbar'>
 								<SiFirebase />
 								Firebase
 							</div>
-							<div className='div50 complement'></div>
+							<div className='div40 complement'></div>
 						</div>
 						<div className='row'>
 							<div className='div90 skillbar'>
@@ -112,6 +113,13 @@ function Skills() {
 							<div className='div30 skillbar'>
 								<FaGlobeEurope />
 								Espanhol
+							</div>
+							<div className='div70 complement'></div>
+						</div>
+						<div className='row'>
+							<div className='div30 skillbar'>
+								<FaGlobeEurope />
+								Francês
 							</div>
 							<div className='div70 complement'></div>
 						</div>
