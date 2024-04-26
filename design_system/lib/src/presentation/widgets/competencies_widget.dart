@@ -28,6 +28,7 @@ class CompetenciesWidget extends StatelessWidget {
           ),
           const Divider(),
           ListView.builder(
+            physics: const NeverScrollableScrollPhysics(),
             itemCount: competencies.length,
             shrinkWrap: true,
             padding: EdgeInsets.zero,

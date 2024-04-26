@@ -44,6 +44,7 @@ class LeftPanelWidget extends StatelessWidget {
               ListView(
                 shrinkWrap: true,
                 padding: EdgeInsets.zero,
+                physics: const NeverScrollableScrollPhysics(),
                 children: [
                   const CustomListTile(
                     title: 'Lucas Albergoni Campaneruti',
