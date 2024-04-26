@@ -1,0 +1,6 @@
+name: portfolio_workspace
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  melos: ^4.0.0

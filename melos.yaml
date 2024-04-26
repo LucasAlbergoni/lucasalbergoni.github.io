@@ -1,0 +1,12 @@
+name: portfolio
+
+packages:
+  - design_system
+  - portfolio
+
+scripts:
+  analyze:
+    run: melos exec -- dart analyze .
+
+  clean:
+    exec: flutter clean

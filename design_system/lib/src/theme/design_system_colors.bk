@@ -1,0 +1,35 @@
+// part of 'design_system_themes.dart';
+
+// class _DesignSystemColors {
+//   static const Color black = Color(0xFF000000);
+//   static const Color white = Color(0xFFffffff);
+//   static const Color blue = Color(0xff395a86);
+//   static const Color gray = Color(0xFF222222);
+//   static const Color error = Color(0xFFB00020);
+// }
+
+// extension DesignSystemColorsExtension on ColorScheme {
+//   Color get black => _DesignSystemColors.black;
+//   Color get blue => _DesignSystemColors.blue;
+//   Color get gray => _DesignSystemColors.gray;
+//   Color get priwhitemary => _DesignSystemColors.white;
+// }
+
+// class DesignSystemColorScheme extends ColorScheme {
+//   const DesignSystemColorScheme({
+//     super.brightness = Brightness.light,
+//     super.primary = _DesignSystemColors.white,
+//     super.onPrimary = _DesignSystemColors.black,
+//     super.secondary = _DesignSystemColors.blue,
+//     super.onSecondary = _DesignSystemColors.white,
+//     super.error = _DesignSystemColors.error,
+//     super.onError = _DesignSystemColors.black,
+//     super.background = _DesignSystemColors.white,
+//     super.onBackground = _DesignSystemColors.black,
+//     super.surface = _DesignSystemColors.blue,
+//     super.onSurface = _DesignSystemColors.white,
+//     super.surfaceTint = _DesignSystemColors.toColorScheme,
+//     super.shadow = _DesignSystemColors.toColorScheme,
+//     super.scrim,
+//   });
+// }
