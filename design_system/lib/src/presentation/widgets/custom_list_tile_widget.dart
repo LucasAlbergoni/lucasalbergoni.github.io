@@ -16,10 +16,13 @@ class CustomListTile extends StatelessWidget {
     final theme = Theme.of(context);
 
     return ListTile(
-      contentPadding: EdgeInsets.zero,
-      leading: Icon(
-        icon,
-        color: theme.colorScheme.primary,
+      contentPadding: const EdgeInsets.symmetric(horizontal: 8),
+      leading: CircleAvatar(
+        backgroundColor: theme.colorScheme.surfaceVariant,
+        child: Icon(
+          icon,
+          color: theme.colorScheme.primary,
+        ),
       ),
       title: Text(
         title,

@@ -11,12 +11,35 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Row(
-        children: [
-          LeftPanelWidget(),
-          RightPanelWidget(),
-        ],
+    return Scaffold(
+      body: LayoutBuilder(
+        builder: (context, constrains) {
+          if (constrains.maxWidth > 800) {
+            return const SingleChildScrollView(
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Flexible(
+                    flex: 2,
+                    child: LeftPanelWidget(),
+                  ),
+                  Flexible(
+                    flex: 3,
+                    child: RightPanelWidget(),
+                  ),
+                ],
+              ),
+            );
+          }
+          return const SingleChildScrollView(
+            child: Column(
+              children: [
+                LeftPanelWidget(),
+                RightPanelWidget(),
+              ],
+            ),
+          );
+        },
       ),
     );
   }

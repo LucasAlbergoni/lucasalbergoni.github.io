@@ -18,7 +18,7 @@ class InformationWidget extends StatelessWidget {
             Text(
               info.title,
               style: theme.textTheme.bodyMedium!.copyWith(
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w700,
               ),
             ),
             Text(
@@ -35,13 +35,13 @@ class InformationWidget extends StatelessWidget {
             color: theme.colorScheme.primary,
           ),
         ),
-        const SizedBox(height: 8),
         Text(
           info.description,
           style: theme.textTheme.bodyMedium!.copyWith(
             fontWeight: FontWeight.w500,
           ),
         ),
+        const SizedBox(height: 8),
       ],
     );
   }
