@@ -50,13 +50,19 @@ class LeftPanelWidget extends StatelessWidget {
                     title: 'Lucas Albergoni Campaneruti',
                     icon: Icons.person,
                   ),
-                  const CustomListTile(
+                  CustomListTile(
                     icon: Icons.mail,
                     title: 'lucas.albergoni@gmail.com',
+                    onTap: () {
+                      launchUrl(Uri.parse('mailto:lucas.albergoni@gmail.com'));
+                    },
                   ),
-                  const CustomListTile(
-                    icon: Icons.phone,
+                  CustomListTile(
+                    icon: FontAwesomeIcons.whatsapp,
                     title: '(43) 9 96686972',
+                    onTap: () {
+                      launchUrl(Uri.parse('https://wa.me/5543996686972'));
+                    },
                   ),
                   const CustomListTile(
                     icon: Icons.location_on,
