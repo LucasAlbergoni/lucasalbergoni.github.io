@@ -34,28 +34,33 @@ class CompetenciesWidget extends StatelessWidget {
             padding: EdgeInsets.zero,
             itemBuilder: (context, index) {
               final item = competencies[index];
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 4),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Text(
-                        item.$1,
-                        style: theme.textTheme.bodyMedium,
-                      ),
-                    ),
-                    SizedBox(
-                      width: 120,
-                      height: 12,
-                      child: LinearProgressIndicator(
-                        value: item.$2 / 100,
-                        backgroundColor: theme.colorScheme.onSecondary,
-                        valueColor: AlwaysStoppedAnimation(
-                          theme.colorScheme.secondary,
+              return Tooltip(
+                message: '${item.$1}, ${item.$2}% de domínio',
+                enableFeedback: true,
+                waitDuration: const Duration(milliseconds: 100),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          item.$1,
+                          style: theme.textTheme.bodyMedium,
                         ),
                       ),
-                    ),
-                  ],
+                      SizedBox(
+                        width: 120,
+                        height: 12,
+                        child: LinearProgressIndicator(
+                          value: item.$2 / 100,
+                          backgroundColor: theme.colorScheme.onSecondary,
+                          valueColor: AlwaysStoppedAnimation(
+                            theme.colorScheme.secondary,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               );
             },

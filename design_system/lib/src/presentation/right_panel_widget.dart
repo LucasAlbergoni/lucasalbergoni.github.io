@@ -1,7 +1,8 @@
+import 'package:design_system/src/presentation/entities/certification_entity.dart';
 import 'package:flutter/material.dart';
 
 import 'entities/entities.dart';
-import 'widgets/section_widget.dart';
+import 'widgets/widgets.dart';
 
 class RightPanelWidget extends StatelessWidget {
   const RightPanelWidget({super.key});
@@ -37,14 +38,14 @@ class RightPanelWidget extends StatelessWidget {
                 title: 'Especialista Flutter',
                 subtitle: 'Squad Premium',
                 description:
-                    'Na Squad premium tive oportunidade de trabalhar com uma arquitetura completa, aplicando os principios de Clean Arquitecture, SOLID, e utilizando o Bloc para gerenciamento de estado, realizando integrações com SDKS de parceiros, como google e samsung.',
+                    '''Na Squad premium tive oportunidade de trabalhar com uma arquitetura completa, aplicando os princípios de Clean Architecture, SOLID, e utilizando o Bloc para gerenciamento de estado, realizando integrações com SDKS de parceiros, como Google e Samsung.''',
                 period: 'Fev 2024 - Abril 2024 · 3 meses',
               ),
               InformationEntity(
                 title: 'Flutter Specialist | Tech Leader',
                 subtitle: 'F-Team | Especialista em Aplicativos',
-                description:
-                    'Como um Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluie no desenvolvimento.',
+                description: '''
+Como um Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluir no desenvolvimento.''',
                 period: 'Ago 2023 - Fev 2024 · 7 meses',
               ),
               InformationEntity(
@@ -70,8 +71,30 @@ class RightPanelWidget extends StatelessWidget {
               InformationEntity(
                 title: 'Supervisor de atendimento',
                 subtitle: 'KM Sistemas de Gestão Empresarial',
-                description: 'Desenvolvimento de Plataforma Web em ReactJs.',
+                description:
+                    '''Supervisão de equipe de suporte, atendimento a clientes, atualização e acompanhamento de software ERP.''',
                 period: 'Mar 2019 - fev 2021 · 2 anos',
+              ),
+            ],
+          ),
+          CertificatesSection(
+            title: 'Certificações',
+            certificates: [
+              CertificationEntity(
+                title: 'Formação em Liderança',
+                subtitle: 'Escola Conquer',
+                description:
+                    '''Código da credencial: 143a11ec-9b6c-4a65-8261-96129a150ea9''',
+                period: 'Set 2023',
+                certificateUrl:
+                    'https://conquerplus.com.br/certificates/143a11ec-9b6c-4a65-8261-96129a150ea9',
+              ),
+              CertificationEntity(
+                title: 'B2 First - Score 168',
+                subtitle: 'Cambridge Assessment English',
+                description: 'Código da credencial: 810965TII',
+                period: 'Jul 2019',
+                certificateUrl: 'www.cambridgeenglish.org/exams-and-tests',
               ),
             ],
           ),

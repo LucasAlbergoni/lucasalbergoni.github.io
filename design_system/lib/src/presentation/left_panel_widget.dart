@@ -49,10 +49,17 @@ class LeftPanelWidget extends StatelessWidget {
                   const CustomListTile(
                     title: 'Lucas Albergoni Campaneruti',
                     icon: Icons.person,
+                    toolTip: 'Nome completo',
+                  ),
+                  const CustomListTile(
+                    title: 'Senior Mobile Developer | Flutter | Dart',
+                    icon: FontAwesomeIcons.code,
+                    toolTip: 'Descrição profissional',
                   ),
                   CustomListTile(
                     icon: Icons.mail,
                     title: 'lucas.albergoni@gmail.com',
+                    toolTip: 'E-mail',
                     onTap: () {
                       launchUrl(Uri.parse('mailto:lucas.albergoni@gmail.com'));
                     },
@@ -60,21 +67,25 @@ class LeftPanelWidget extends StatelessWidget {
                   CustomListTile(
                     icon: FontAwesomeIcons.whatsapp,
                     title: '(43) 9 96686972',
+                    toolTip: 'Telefone e WhatsApp',
                     onTap: () {
                       launchUrl(Uri.parse('https://wa.me/5543996686972'));
                     },
                   ),
                   const CustomListTile(
                     icon: Icons.location_on,
+                    toolTip: 'Cidade e Estado',
                     title: 'Cambira - PR, Brasil',
                   ),
                   const CustomListTile(
                     icon: Icons.calendar_month,
                     title: '16/01/1998',
+                    toolTip: 'Data de nascimento',
                   ),
                   CustomListTile(
                     icon: FontAwesomeIcons.github,
                     title: 'LucasAlbergoni',
+                    toolTip: 'Perfil no GitHub',
                     onTap: () {
                       launchUrl(
                         Uri.parse(
@@ -86,6 +97,7 @@ class LeftPanelWidget extends StatelessWidget {
                   CustomListTile(
                     icon: FontAwesomeIcons.linkedin,
                     title: 'in/lucasalbergoni',
+                    toolTip: 'Perfil no LinkedIn',
                     onTap: () {
                       launchUrl(
                         Uri.parse(
