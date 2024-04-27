@@ -3,13 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "2778cb28d22c4c85246db15a3170041d",
-"assets/AssetManifest.bin.json": "a5712b4cff2795ddc0e4ea7c05bd1f38",
-"assets/AssetManifest.json": "b43bf832ed3e29b84cbb61718270d52f",
+const RESOURCES = {"assets/AssetManifest.bin": "593f0cfcf52318a384f172d600d9b1ab",
+"assets/AssetManifest.bin.json": "ab6103d961c593c1ee2dad68ec08e2ba",
+"assets/AssetManifest.json": "fa5142553e5d741cc5ee637f2bb69bcc",
 "assets/FontManifest.json": "aa0cae07a1461478c633e72091d05114",
 "assets/fonts/MaterialIcons-Regular.otf": "e8a292a83ccf52ec1309932e3d5e2dbc",
 "assets/NOTICES": "36a4a4960716b83c08ca319da6c76ce9",
-"assets/packages/design_system/assets/files/Lucas-albergoni-cv.pdf": "7597dcff84df22b8c1c68d23e93ac6a8",
+"assets/packages/design_system/assets/files/Lucas-albergoni-cv.pdf": "90d9b730252847f005187469fe74156d",
+"assets/packages/design_system/assets/files/Lucas-albergoni-linkedin-cv.pdf": "7597dcff84df22b8c1c68d23e93ac6a8",
 "assets/packages/design_system/assets/fonts/Inter-Bold.ttf": "275bfea5dc74c33f51916fee80feae67",
 "assets/packages/design_system/assets/fonts/Inter-ExtraBold.ttf": "72ac147c98056996b2a31e95a56d6e66",
 "assets/packages/design_system/assets/fonts/Inter-Light.ttf": "d55f45d07cfe01e8797bd1566561f718",
@@ -42,9 +43,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "2778cb28d22c4c85246db15a3170041d
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "822c252c4b2b54dc1ea49f86050bb3ff",
-"/": "822c252c4b2b54dc1ea49f86050bb3ff",
-"main.dart.js": "0d9902b20c3aef2ec32d885b79ad3468",
+"index.html": "d55c2812ccb1913da282b9ba94080d31",
+"/": "d55c2812ccb1913da282b9ba94080d31",
+"main.dart.js": "99738e888f59171e72d51a855bdfd44d",
 "manifest.json": "e74af8957b5899dc6da961caee768ec9",
 "version.json": "0325640b78b9f97959290dc5ebb8b3ed"};
 // The application shell files that are downloaded before a service worker can
