@@ -11,6 +11,12 @@ import 'widgets/profile_and_name_widget.dart';
 class LeftPanelWidget extends StatelessWidget {
   const LeftPanelWidget({super.key});
 
+  void openInANewTab(String url) {
+    launchUrl(
+      Uri.parse(url),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -129,6 +135,14 @@ class LeftPanelWidget extends StatelessWidget {
                   ('French', 10),
                 ],
                 title: 'Idiomas',
+              ),
+              const SizedBox(
+                height: 16,
+              ),
+              ElevatedButton(
+                onPressed: () =>
+                    openInANewTab('assets/files/Lucas-albergoni-cv.pdf'),
+                child: const Text('Baixar Curriculo'),
               ),
             ],
           ),

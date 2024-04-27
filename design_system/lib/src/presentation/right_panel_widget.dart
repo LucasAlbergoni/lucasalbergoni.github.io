@@ -45,7 +45,7 @@ class RightPanelWidget extends StatelessWidget {
                 title: 'Flutter Specialist | Tech Leader',
                 subtitle: 'F-Team | Especialista em Aplicativos',
                 description: '''
-Como um Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluir no desenvolvimento.''',
+Como Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluir no desenvolvimento.''',
                 period: 'Ago 2023 - Fev 2024 · 7 meses',
               ),
               InformationEntity(
@@ -66,7 +66,7 @@ Como um Tech Leader, liderei equipes de alto desempenho na busca constante por s
                 title: 'Desenvolvedor Web Front End',
                 subtitle: 'Quem Contrato',
                 description: 'Desenvolvimento de Plataforma Web em ReactJs.',
-                period: 'Fev 2021 - Jun 2022 · 5 meses',
+                period: 'Fev 2021 - Jun 2021 · 5 meses',
               ),
               InformationEntity(
                 title: 'Supervisor de atendimento',
