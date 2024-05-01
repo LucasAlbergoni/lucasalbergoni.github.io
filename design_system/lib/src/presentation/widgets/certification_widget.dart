@@ -42,7 +42,7 @@ class CertificationWidget extends StatelessWidget {
             fontWeight: FontWeight.w500,
           ),
         ),
-        // const SizedBox(height: 4),
+        const SizedBox(height: 4),
         ElevatedButton(
           onPressed: () {
             final url = Uri.parse(certificates.certificateUrl);

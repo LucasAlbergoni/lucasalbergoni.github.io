@@ -5,29 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "design_system",
-            "cwd": "design_system",
-            "request": "launch",
-            "type": "dart",
-            "program": "lib/main.dart"
-        },
-        {
-            "name": "design_system (profile mode)",
-            "cwd": "design_system",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "profile",
-            "program": "lib/main.dart"
-        },
-        {
-            "name": "design_system (release mode)",
-            "cwd": "design_system",
-            "request": "launch",
-            "type": "dart",
-            "flutterMode": "release",
-            "program": "lib/main.dart"
-        },
-        {
             "name": "portfolio",
             "cwd": "portfolio",
             "request": "launch",

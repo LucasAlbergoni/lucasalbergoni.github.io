@@ -1,8 +1,5 @@
-import 'package:design_system/src/presentation/entities/certification_entity.dart';
+import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
-
-import 'entities/entities.dart';
-import 'widgets/widgets.dart';
 
 class RightPanelWidget extends StatelessWidget {
   const RightPanelWidget({super.key});
@@ -95,6 +92,14 @@ Como Tech Leader, liderei equipes de alto desempenho na busca constante por solu
                 description: 'Código da credencial: 810965TII',
                 period: 'Jul 2019',
                 certificateUrl: 'www.cambridgeenglish.org/exams-and-tests',
+              ),
+              CertificationEntity(
+                title: 'Desmistificando a Linguagem de Programação Kotlin',
+                subtitle: 'DIO.',
+                description:
+                    '''Este certificado é o primeiro da Formação Android Developer.''',
+                period: 'Mai 2024',
+                certificateUrl: 'https://www.dio.me/certificate/I3XJ92L1',
               ),
             ],
           ),
