@@ -15,6 +15,18 @@ class RightPanelWidget extends StatelessWidget {
             title: 'Formação',
             information: [
               InformationEntity(
+                title: 'Formação Android Developer',
+                subtitle: 'DIO',
+                description: '67 Horas',
+                period: '04/2024 - Em andamento',
+              ),
+              InformationEntity(
+                title: 'Desenvolvedor FullStack',
+                subtitle: 'Escola DNC',
+                description: '10 Meses',
+                period: '03/2024 - Em andamento',
+              ),
+              InformationEntity(
                 title: 'Pós graduação',
                 subtitle: 'Universo Ead',
                 description: 'Pós graduação Lato Sensu em banco de dados',
@@ -34,29 +46,53 @@ class RightPanelWidget extends StatelessWidget {
               InformationEntity(
                 title: 'Especialista Flutter',
                 subtitle: 'Squad Premium',
-                description:
-                    '''Na Squad premium tive oportunidade de trabalhar com uma arquitetura completa, aplicando os princípios de Clean Architecture, SOLID, e utilizando o Bloc para gerenciamento de estado, realizando integrações com SDKS de parceiros, como Google e Samsung.''',
+                description: '''
+Na Squad premium tive oportunidade de trabalhar com uma arquiteturacompleta, aplicando os principios de Clean Arquitecture, SOLID, MicroFront End e Micro Apps e utilizando o Bloc para gerenciamento de estado,realizando integrações com SDKS de parceiros, como Google e Samsung.
+
+- Implementação de arquitetura completa usando Clean Architecture e SOLID.
+- Gerenciamento de estado com Bloc.
+- Integrações com SDKs de parceiros (Google, Samsung).''',
                 period: 'Fev 2024 - Abril 2024 · 3 meses',
               ),
               InformationEntity(
                 title: 'Flutter Specialist | Tech Leader',
                 subtitle: 'F-Team | Especialista em Aplicativos',
                 description: '''
-Como Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluir no desenvolvimento.''',
+Como um Tech Leader, liderei equipes de alto desempenho na busca constante por soluções criativas e escaláveis. Criando soluções completas para os projetos de nossos clientes, garantindo que a equipe consiga fluir no desenvolvimento.
+Alem de liderar, também atuei como mentor em nesse periodo, auxiliando novos desenvolvedores a aprimorarem seus conhecimentos tecnicos.
+Desenvolvimentos de Apps com Flutter/DART, utilizando ferramentas e conceitos como SOLID, CleanDart, Clean Architecture, Triple, Modular, Micro Front end, Design System, e outros.
+
+- Liderança de equipes de alto desempenho.
+- Desenvolvimento de soluções completas em Flutter/DART.
+- Uso de ferramentas e conceitos como SOLID, CleanDart, Clean Architecture, Triple, Modular, Design System, Firebase, GIT e github.''',
                 period: 'Ago 2023 - Fev 2024 · 7 meses',
+              ),
+              InformationEntity(
+                title: 'Coorganizer',
+                subtitle: 'GDG Maringá',
+                description: '''
+Como coorganizador do Google Developer Group (GDG) Maringá, sou responsável por promover o desenvolvimento profissional e o networking dentro da comunidade de desenvolvedores locais. Minhas principais atividades incluem:
+
+- Planejamento e execução de eventos técnicos e workshops focados em tecnologias Google e outras inovações da indústria.
+- Colaboração com outros organizadores para selecionar temas relevantes e atrair palestrantes de destaque.
+- Fomento ao aprendizado contínuo e ao compartilhamento de conhecimentos através de meetups e conferências.''',
+                period: 'Fev 2024 - Abril 2024 · 3 meses',
               ),
               InformationEntity(
                 title: 'Flutter Specialist | Pleno',
                 subtitle: 'F-Team | Especialista em Aplicativos',
-                description:
-                    'Desenvolvimentos de Apps com Flutter/DART, utilizando ferramentas e conceitos como SOLID, CleanDart, BLOC, MVVM, Triple, Modular.',
+                description: '''
+Desenvolvimentos de Apps com Flutter/DART, utilizando ferramentas e conceitos como SOLID, CleanDart, BLOC, MVVM, Triple, Modular, mobX, Design System, Firebase.
+
+- Desenvolvimento de Apps com Flutter/DART.
+- Uso de SOLID, CleanDart, BLOC, MVVM, Triple, Modular, Firebase , GIT e github.. ''',
                 period: 'Jun 2022 - Ago 2023 · 1 ano 3 meses',
               ),
               InformationEntity(
                 title: 'Flutter Specialist | Junior',
                 subtitle: 'F-Team | Especialista em Aplicativos',
                 description:
-                    'Desenvolvimentos de Apps com Flutter/DART, utilizando ferramentas e conceitos como SOLID, CleanDart, BLOC, MVVM, Triple, Modular.',
+                    'Desenvolvimentos de Apps com Flutter/DART, utilizando ferramentas e conceitos como SOLID, CleanDart, BLOC, MVVM, Triple, Modular, Firebase, GIT e github.',
                 period: 'Jun 2021 - Ago 2022 · 1 ano 1 mês',
               ),
               InformationEntity(

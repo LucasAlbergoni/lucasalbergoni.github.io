@@ -138,17 +138,16 @@ class LeftPanelWidget extends StatelessWidget {
                 ),
                 ElevatedButton(
                   onPressed: () =>
-                      openInANewTab('assets/files/Lucas-albergoni-cv.pdf'),
-                  child: const SelectableText('Baixar Curriculo'),
+                      openInANewTab('assets/files/lucas_albergoni_cv_EN.pdf'),
+                  child: const SelectableText('Curriculo EN'),
                 ),
                 const SizedBox(
                   height: 8,
                 ),
                 ElevatedButton(
-                  onPressed: () => openInANewTab(
-                    'assets/files/Lucas-albergoni-linkedin-cv.pdf',
-                  ),
-                  child: const SelectableText('Baixar Linkedin'),
+                  onPressed: () =>
+                      openInANewTab('assets/files/lucas_albergoni_cv_PT.pdf'),
+                  child: const SelectableText('Curriculo PT'),
                 ),
                 const SizedBox(
                   height: 16,
