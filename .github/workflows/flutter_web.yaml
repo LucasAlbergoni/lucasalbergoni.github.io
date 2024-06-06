@@ -23,19 +23,19 @@ jobs:
          cd design_system
          flutter pub get
       
-      - name: Install dependencies in DS
+      - name: Install dependencies in potfolio
         run: |
-         cd ../portfolio
+         cd portfolio
          flutter pub get
 
       - name: Build Web
         run:  |
-         cd ../portfolio
+         cd portfolio
          flutter build web --release
 
       - name: Deploy
         run: |
-          cd ../portfolio
+          cd portfolio
           cd build/web
           git init
           git config --global user.email lucas.albergoni@gmail.com
