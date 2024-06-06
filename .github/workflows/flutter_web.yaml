@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-         cd/design_system
+         cd design_system
          flutter pub get
          cd ../portfolio
          flutter pub get
