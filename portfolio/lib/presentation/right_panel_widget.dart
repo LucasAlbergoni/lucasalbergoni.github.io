@@ -78,10 +78,32 @@ Como Tech Leader, liderei equipes de alto desempenho na busca constante por solu
             title: 'Certificações',
             certificates: [
               CertificationEntity(
+                title: 'Desmistificando a Linguagem de Programação Kotlin',
+                subtitle: 'DIO',
+                description: '''14 horas''',
+                period: 'Mai 2024',
+                certificateUrl: 'https://www.dio.me/certificate/I3XJ92L1',
+              ),
+              CertificationEntity(
+                title:
+                    'Fundamentos de Desenvolvimento Mobile Nativo Para Android',
+                subtitle: 'DIO',
+                description: '''8 horas''',
+                period: 'Mai 2024',
+                certificateUrl: 'https://www.dio.me/certificate/8VLLAWE6',
+              ),
+              CertificationEntity(
+                title: 'Introdução ao Desnvolvimento Web',
+                subtitle: 'DNC',
+                description: '''10 Horas''',
+                period: 'Mai 2024',
+                certificateUrl:
+                    'https://www.linkedin.com/in/lucasalbergoni/details/certifications/1717636396314/single-media-viewer/?profileId=ACoAABlNX1gBYqQYbI9J2dnG7QrJ23HxUe47_50',
+              ),
+              CertificationEntity(
                 title: 'Formação em Liderança',
                 subtitle: 'Escola Conquer',
-                description:
-                    '''Código da credencial: 143a11ec-9b6c-4a65-8261-96129a150ea9''',
+                description: '''10 horas''',
                 period: 'Set 2023',
                 certificateUrl:
                     'https://conquerplus.com.br/certificates/143a11ec-9b6c-4a65-8261-96129a150ea9',
@@ -92,14 +114,6 @@ Como Tech Leader, liderei equipes de alto desempenho na busca constante por solu
                 description: 'Código da credencial: 810965TII',
                 period: 'Jul 2019',
                 certificateUrl: 'www.cambridgeenglish.org/exams-and-tests',
-              ),
-              CertificationEntity(
-                title: 'Desmistificando a Linguagem de Programação Kotlin',
-                subtitle: 'DIO.',
-                description:
-                    '''Este certificado é o primeiro da Formação Android Developer.''',
-                period: 'Mai 2024',
-                certificateUrl: 'https://www.dio.me/certificate/I3XJ92L1',
               ),
             ],
           ),

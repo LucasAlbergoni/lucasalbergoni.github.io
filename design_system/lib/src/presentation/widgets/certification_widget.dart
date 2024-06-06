@@ -30,17 +30,22 @@ class CertificationWidget extends StatelessWidget {
             ),
           ],
         ),
-        Text(
-          certificates.subtitle,
-          style: theme.textTheme.bodyMedium!.copyWith(
-            color: theme.colorScheme.primary,
-          ),
-        ),
-        Text(
-          certificates.description,
-          style: theme.textTheme.bodyMedium!.copyWith(
-            fontWeight: FontWeight.w500,
-          ),
+        Row(
+          children: [
+            Text(
+              certificates.subtitle,
+              style: theme.textTheme.bodyMedium!.copyWith(
+                color: theme.colorScheme.primary,
+              ),
+            ),
+            const SizedBox(width: 6),
+            Text(
+              certificates.description,
+              style: theme.textTheme.bodyMedium!.copyWith(
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ],
         ),
         const SizedBox(height: 4),
         ElevatedButton(
