@@ -1,3 +1,3 @@
 # portfolio
-
-A new Flutter project.
+To deploy, 
+flutter build web --release
