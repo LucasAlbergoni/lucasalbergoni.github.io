@@ -15,13 +15,13 @@ class InformationWidget extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
+            SelectableText(
               info.title,
               style: theme.textTheme.bodyMedium!.copyWith(
                 fontWeight: FontWeight.w700,
               ),
             ),
-            Text(
+            SelectableText(
               info.period,
               style: theme.textTheme.bodyMedium!.copyWith(
                 color: theme.colorScheme.primary,
@@ -29,13 +29,13 @@ class InformationWidget extends StatelessWidget {
             ),
           ],
         ),
-        Text(
+        SelectableText(
           info.subtitle,
           style: theme.textTheme.bodyMedium!.copyWith(
             color: theme.colorScheme.primary,
           ),
         ),
-        Text(
+        SelectableText(
           info.description,
           style: theme.textTheme.bodyMedium!.copyWith(
             fontWeight: FontWeight.w500,

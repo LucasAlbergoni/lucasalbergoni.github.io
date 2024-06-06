@@ -18,7 +18,7 @@ class ProfileAndNameWidget extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(16),
-          child: Text(
+          child: SelectableText(
             name,
             style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                   color: colorScheme.onPrimary,

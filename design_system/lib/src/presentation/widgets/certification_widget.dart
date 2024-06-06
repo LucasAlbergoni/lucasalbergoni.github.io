@@ -16,13 +16,13 @@ class CertificationWidget extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text(
+            SelectableText(
               certificates.title,
               style: theme.textTheme.bodyMedium!.copyWith(
                 fontWeight: FontWeight.w700,
               ),
             ),
-            Text(
+            SelectableText(
               certificates.period,
               style: theme.textTheme.bodyMedium!.copyWith(
                 color: theme.colorScheme.primary,
@@ -32,14 +32,14 @@ class CertificationWidget extends StatelessWidget {
         ),
         Row(
           children: [
-            Text(
+            SelectableText(
               certificates.subtitle,
               style: theme.textTheme.bodyMedium!.copyWith(
                 color: theme.colorScheme.primary,
               ),
             ),
             const SizedBox(width: 6),
-            Text(
+            SelectableText(
               certificates.description,
               style: theme.textTheme.bodyMedium!.copyWith(
                 fontWeight: FontWeight.w500,

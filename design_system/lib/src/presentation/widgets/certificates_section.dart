@@ -19,7 +19,7 @@ class CertificatesSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        SelectableText(
           title,
           style: theme.textTheme.headlineMedium!.copyWith(
             color: theme.colorScheme.primary,

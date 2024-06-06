@@ -30,7 +30,7 @@ class CustomListTile extends StatelessWidget {
             color: theme.colorScheme.primary,
           ),
         ),
-        title: Text(
+        title: SelectableText(
           title,
           style: theme.textTheme.bodyMedium,
         ),

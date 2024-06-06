@@ -20,7 +20,7 @@ class CompetenciesWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
+          SelectableText(
             title,
             style: theme.textTheme.headlineMedium!.copyWith(
               color: theme.colorScheme.primary,
@@ -43,7 +43,7 @@ class CompetenciesWidget extends StatelessWidget {
                   child: Row(
                     children: [
                       Expanded(
-                        child: Text(
+                        child: SelectableText(
                           item.$1,
                           style: theme.textTheme.bodyMedium,
                         ),
