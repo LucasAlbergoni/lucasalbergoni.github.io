@@ -18,18 +18,24 @@ jobs:
         with:
           channel: "stable"
 
-      - name: Install dependencies
+      - name: Install dependencies in DS
         run: |
          cd design_system
          flutter pub get
+      
+      - name: Install dependencies in DS
+        run: |
          cd ../portfolio
          flutter pub get
 
       - name: Build Web
-        run: flutter build web --release
+        run:  |
+         cd ../portfolio
+         flutter build web --release
 
       - name: Deploy
         run: |
+          cd ../portfolio
           cd build/web
           git init
           git config --global user.email lucas.albergoni@gmail.com
